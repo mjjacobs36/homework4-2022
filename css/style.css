@@ -43,16 +43,13 @@ header {
 
 .pricing {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    flex-basis: auto;
+    flex-basis: 450px;
 }
 
 #image1, #image2, #image3, #image4, #image5 {
@@ -164,6 +161,8 @@ header {
         flex-direction: row;
         align-items: flex-end;
         justify-content: center;
+        flex-wrap: nowrap;
+        margin-bottom: 50px;
     }
 
     .card {
